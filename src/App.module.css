@@ -1,0 +1,39 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator{
+  width: 200px;
+}
+
+.result{
+  text-align: center;
+  border: 1px solid;
+  padding: 20px 10px;
+}
+
+.resultado{
+  margin-top: 20px;
+  font-size: 2em;
+  color: rgb(164, 0, 0);
+}
+
+.selects{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.selects button{
+  border: none;
+  padding: 20px;
+  margin: 5px 0;
+  background-color: rgb(78, 78, 78);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
